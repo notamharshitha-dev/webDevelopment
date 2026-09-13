@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: pink;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #h1{
+            padding: 50px;
+            text-align: center;
+            color: rgb(126, 6, 120);
+
+        }
+         h2{
+            
+            text-align: center;
+            color: rgb(126, 6, 120);
+
+        }
+        #b2{
+            background-color: purple;
+            height: 50px;
+            width: 70px;
+            margin: 20px;
+            position: absolute;
+            right: 700px;
+            color: palevioletred;
+            border-radius: 20px;
+        }
+         #b1{
+            background-color: purple;
+            height: 50px;
+            width: 70px;
+            margin: 20px;
+            position: absolute;
+            right: 800px;
+            color: palevioletred;
+            border-radius: 20px;
+        }
+        #u{
+            display: none;
+            color: purple;
+            padding: 20px;
+            margin: 20px;
+        }
+        #u li{
+            margin: 20px;
+            text-align: center;
+            list-style: none;
+        }
+        img{
+            display: none;
+            max-width: 100%;         
+           height: auto;
+        }
+        .imageContainer{
+            display: flex;
+            justify-content: center; 
+            align-items: center;     
+           
+        }
+        #h{
+            display: none;
+            text-align: center;
+            color: purple;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="h1" >Happiest birthdayy hariiii <span>&#128525;</span> </h1>
+    <ul id="u" >
+        <li>A sister is a dearest friend, a closest enemy, and an angel at the time of need.</li>
+        <li>As youre growing up and youre close, you cant trust anyone the way you trust your sister, but also they have the power to wound you in ways no one else really does.</li>
+        <li>I do not see as well without her. I do not hear as well without her. I do not feel as well without her. I would be better off without a hand or a leg than without my sister.</li>
+        <li>I smile because you are my sister. I laugh because there is nothing you can do about it</li>
+    </ul>
+    <h2 id="h2" >Do You Wanted Me To Reaveal The Suprise??? <span>&#128073;</span> <span>&#128072;</span> </h2>
+   <div class="imageContainer" >
+         <img src="https://assets.stickers.wiki/img/24818089b97adc02fc6975a78507550b.thumb.webp" alt="error 404 image not found" id="i" >
+   </div>
+   <h1 id="h" >so uhh dont want any supriseee <span>&#128557;</span> <span> &#128532; </span> </h1>
+    <button id="b1" onclick="yes_function()" > <b>YES</b> </button>
+    <button id="b2" onclick="no_function()" > <b>NO</b> </button>
+    <script>
+        function yes_function(){
+            var l=document.getElementById('u')
+            l.style.display="block"
+            var i=document.getElementById('h2')
+            i.style.display="none"
+            var j=document.getElementById('h1')
+            j.style.display="block"
+             var k=document.getElementById('i')
+            k.style.display="none"
+            var l=document.getElementById('h')
+            l.style.display="none"
+        }
+        function no_function(){
+            var l=document.getElementById('u')
+            l.style.display="none"
+            var i=document.getElementById('h2')
+            i.style.display="none"
+            var j=document.getElementById('h1')
+            j.style.display="none"
+            var k=document.getElementById('i')
+            k.style.display="block"
+            var l=document.getElementById('h')
+            l.style.display="block"
+        }
+    </script>
+</body>
+</html>
